@@ -1,0 +1,109 @@
+.main-box {
+  margin-left: 250px;
+}
+
+.logo {
+  background-color: grey;
+  border: 10px;
+  border-radius: 12px solid green;
+  margin: 4px 6px;
+  padding: 4px 6px;
+  width: 120px;
+  height: 80px;
+  display: inline-block;
+}
+
+.first-text {
+  text-align: center;
+}
+
+.header-content {
+  background-color: grey;
+  border: 10px;
+  border-radius: 12px solid green;
+  margin: 4px 6px;
+  padding: 4px 6px;
+  width: 800px;
+  height: 80px;
+  display: inline-block;
+}
+
+.second-text {
+  text-align: center;
+}
+
+.primary-navigation {
+  background-color: grey;
+  border: 10px;
+  border-radius: 12px solid green;
+  margin: 4px 6px;
+  padding: 4px 6px;
+  width: 948px;
+  height: 46px;
+}
+
+.third-text {
+  text-align: center;
+}
+
+.photo-area {
+  background-color: grey;
+  border: 10px;
+  border-radius: 12px solid green;
+  margin: 4px 6px;
+  padding: 4px 6px;
+  width: 400px;
+  height: 180px;
+  display: inline-block;
+}
+
+.fourth-text {
+  text-align: center;
+}
+
+.primary-messaging-area {
+  background-color: grey;
+  border: 10px;
+  border-radius: 12px solid green;
+  margin: 4px 6px;
+  padding: 4px 6px;
+  width: 520px;
+  height: 180px;
+  display: inline-block;
+}
+
+.fifth-text {
+  text-align: center;
+}
+
+.three-boxes {
+  display: flex;
+}
+
+.secondary-messaging-area {
+  background-color: grey;
+  border: 10px;
+  border-radius: 12px solid green;
+  margin: 4px 6px;
+  padding: 4px 6px;
+  width: 300px;
+  height: 180px;
+}
+
+.sixth-text {
+  text-align: center;
+}
+
+footer {
+  background-color: grey;
+  border: 10px;
+  border-radius: 12px solid green;
+  margin: 4px 6px;
+  padding: 4px 6px;
+  width: 948px;
+  height: 40px;
+}
+
+.last-text {
+  text-align: center;
+}
