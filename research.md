@@ -4,7 +4,7 @@
   
     
             
-3.display:inline-block block element üzərində sətiriçi dəyişikliklər etməyə icazə verir və element blok xüsisiyyətini də saxlayır.display:inline da isə block xüsusiyyətini itirir ancaq sətiriçi dəyişikliklər etməyə imkan verir.display:flex və display:grid elementlərin yan-yana düzülməsi üçün istifadə olunur.display:table xüsusiyyəti veriləndə element özünü table element kimi aparır. 
+3.display:inline-block block element üzərində sətiriçi dəyişikliklər etməyə icazə verir və element blok xüsisiyyətini də saxlayır.display:inline da isə block xüsusiyyətini itirir ancaq sətiriçi dəyişikliklər etməyə imkan verir.display:flex və display:grid elementlərin istənilən kimi sütun ya da sətir formasında yerləşdirilməsi üçün istifadə olunur.display:table xüsusiyyəti veriləndə element özünü table element kimi aparır. 
 
 4.div{
     width:300px;
