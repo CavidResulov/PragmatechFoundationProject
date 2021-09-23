@@ -1,4 +1,4 @@
-1.Css də px və % ölçü vahidlərindən başqa rem,em,vw,vh,vmin,vmax,ch,ex və s. ölçü vahidlərindən də istifadə olunur.Məs:div {height:2rem;font-size:2em} və s.
+1.Css də px və % ölçü vahidlərindən başqa rem,em,vw,vh,vmin,vmax,ch,ex və s. ölçü vahidlərindən də istifadə olunur.Məs:div {height:2rem;font-size:2em} və s.Ümumilikdə css də 15 ölçü vahidindən istifadə olunur.
 
 2.ilk olaraq header yaradılır,içində  nav ola bilər,sonra main içərisində section,aside,div,article,footer ola bilər.
   
