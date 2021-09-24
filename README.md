@@ -1,3 +1,0 @@
-# PragmatechFoundationProject
-# PragmatechFoundationProject
-# PragmatechFoundationProject

@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Read section start */
+
+.read {
+  background-color: lightgray;
+  padding: 100px 0px;
+}
+
+.read-container {
+  margin: 0 auto;
+  height: 600px;
+}
+
+.read-header {
+  margin-left: 400px;
+}
+
+.read-header-item-left {
+  width: 404px;
+  display: inline-block;
+  height: 250px;
+  background-color: white;
+}
+
+.read-header-item-right {
+  width: 200px;
+  display: inline-block;
+  height: 250px;
+  background-color: white;
+}
+
+.read-footer {
+  height: 300px;
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+.read-footer-item {
+  width: 200px;
+  display: inline-block;
+  height: 250px;
+  background-color: white;
+}
+
+/* Read section end */

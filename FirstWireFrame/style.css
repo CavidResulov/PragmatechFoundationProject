@@ -11,6 +11,10 @@
   width: 120px;
   height: 80px;
   display: inline-block;
+  border-top: 40px solid goldenrod;
+  border-right: 40px solid red;
+  border-left: 40px solid yellow;
+  border-bottom: 40px solid green;
 }
 
 .first-text {
@@ -52,9 +56,13 @@
   border-radius: 12px solid green;
   margin: 4px 6px;
   padding: 4px 6px;
-  width: 400px;
+  width: 200px;
   height: 180px;
   display: inline-block;
+  border-top: 40px solid goldenrod;
+  border-right: 40px solid red;
+  border-left: 40px solid yellow;
+  border-bottom: 40px solid green;
 }
 
 .fourth-text {
