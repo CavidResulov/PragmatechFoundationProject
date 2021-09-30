@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#three-cards {
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  height: 350px;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.card-icons:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
