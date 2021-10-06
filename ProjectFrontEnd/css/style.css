@@ -1,34 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+/* header start */
+/* section hero-one start */
+/* container start */
 
 .background-image {
   background-image: url(../image/home.jpg);
   height: 100vh;
+  width: 90%;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  left: 153.3px;
+}
+
+.background-image h2 {
+  color: white;
+  font-size: 30px;
+  left: 600px;
+  top: 400px;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+}
+
+.background-image h1 {
+  color: white;
+  font-size: 60px;
+  left: 530px;
+  top: 310px;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
 }
 
 .background-image span {
   color: rgb(221, 65, 69);
   font-size: 60px;
-  left: 590px;
+  left: 700px;
   top: 310px;
   position: absolute;
+  font-family: "Open Sans", sans-serif;
 }
-
+/* container end */
+/* section hero-one end */
+/* header end */
+/* main start */
+/* navbar start */
 .navbar {
   background: rgb(17, 17, 17);
-  width: 200px;
-  height: 100vh;
-  position: absolute;
-  bottom: 0px;
-}
 
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 180px;
+  z-index: 999;
+}
+/* navbar-itens start */
 .navbar-items {
   margin-top: 150px;
 }
@@ -38,7 +71,7 @@
   border: 5px solid rgb(72, 72, 72);
   border-radius: 50%;
   margin-bottom: 16px;
-  margin-left: 40px;
+  margin-left: 30px;
   width: 110px;
 }
 
@@ -54,6 +87,8 @@
   margin-left: 30px;
   margin-top: 9px;
 }
+/* navbar-itens end */
+/* navbar-links start */
 
 .navbar-links {
   margin-top: 50px;
@@ -66,6 +101,139 @@
   list-style: none;
   padding-bottom: 20px;
   display: block;
-  margin-left: 70px;
+  margin-left: 50px;
   color: rgba(232, 232, 232, 0.95);
 }
+/* navbar-links end */
+/* navbar end */
+/* section hero-two start */
+
+#hero-two {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 170px;
+  margin-top: 100px;
+}
+/* text-and-photo start */
+
+.text-and-photo h1 {
+  font-size: 36px;
+}
+.my-bigger-pic {
+  margin-top: 30px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  height: 450px;
+  max-width: 400px;
+  padding: 0.25rem;
+}
+
+.text-and-photo h5 {
+  padding-top: 20px;
+  font-size: 12px;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+}
+/* text-and-photo end */
+/* title-and-subtitle start */
+
+.title-and-subtitle {
+  margin-top: 150px;
+}
+.title-and-subtitle h5 {
+  margin-left: 50px;
+  color: rgb(221, 65, 69);
+  font-size: 16px;
+}
+.title-and-subtitle h2 {
+  margin-left: 50px;
+  padding-top: 16px;
+}
+
+.title-and-subtitle p {
+  margin-left: 50px;
+  padding-top: 16px;
+  font-size: 12px;
+}
+
+.title-and-subtitle h6 {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  padding-top: 30px;
+  margin-left: 50px;
+}
+/* hero-two-bottom start */
+
+.hero-two-bottom {
+  display: flex;
+  margin-top: 40px;
+}
+/* bottom-right start */
+.bottom-right h1 {
+  font-size: 14px;
+  margin-left: 50px;
+
+  color: rgb(51, 51, 51);
+}
+
+.bottom-right h2 {
+  font-size: 14px;
+
+  color: rgb(51, 51, 51);
+}
+/* bottom-right end */
+
+/* bottom-left start */
+
+.bottom-left span {
+  margin-left: 200px;
+  color: rgb(51, 51, 51);
+}
+
+.bottom-left a {
+  font-size: 14px;
+
+  color: rgb(234, 148, 165);
+}
+
+.bottom-left h2 {
+  font-size: 14px;
+  margin-left: 200px;
+  display: block;
+
+  color: rgb(51, 51, 51);
+}
+/* bottom-left end */
+
+/* two-buttons start */
+
+.two-buttons {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.btn-download {
+  border: 1px solid #dc3545;
+  border-radius: 30px;
+  width: 130px;
+  height: 36px;
+  background-color: rgb(169, 47, 43);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-my-work {
+  border: 1px solid #c5c5c5;
+  border-radius: 30px;
+  width: 120px;
+  height: 36px;
+  background-color: white;
+  color: #222;
+  cursor: pointer;
+  margin-left: 10px;
+}
+/* two buttons end */
+/* hero-two-buttom end */
+/* title-and-subtitle end */
+/* section hero-two end */
+/* main end */
