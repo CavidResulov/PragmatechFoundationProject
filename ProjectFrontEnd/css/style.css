@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 /* header start */
 /* section hero-one start */
@@ -12,7 +13,7 @@
 .background-image {
   background-image: url(../image/home.jpg);
   height: 100vh;
-  width: 90%;
+  width: 100%;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -236,4 +237,114 @@
 /* hero-two-buttom end */
 /* title-and-subtitle end */
 /* section hero-two end */
+/* section my-skills start */
+#my-skills {
+  margin-top: 100px;
+  background-color: #f7f7f7;
+}
+/* three-cards-up start */
+.three-cards-up {
+  display: grid;
+  grid-template-columns: repeat(3, 0.3fr);
+  margin-left: 400px;
+}
+.card {
+  height: 200px;
+
+  border: 1px solid rgba(214, 214, 214, 0.8);
+  background-color: rgb(255, 255, 255);
+}
+
+.card-text {
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+/* three-cards-up end */
+/* three-cards-down start */
+.three-cards-down {
+  display: grid;
+  grid-template-columns: repeat(3, 0.3fr);
+  padding-top: 20px;
+  margin-left: 400px;
+}
+/* three-cards-down end */
+/* section my-skills end */
+/* section lets-work start */
+#lets-work {
+  height: 130px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.83);
+}
+
+/* text-and-paragraph start */
+.text-and-paragraph h1 {
+  color: white;
+  margin-left: 240px;
+}
+.text-and-paragraph p {
+  margin-left: 240px;
+}
+/* text-and-paragraph end */
+/* hire-me start */
+.hire-me button {
+  margin-top: 30px;
+  background-color: rgb(191, 42, 61);
+  border: 1px solid rgb(191, 42, 61);
+  border-radius: 30px;
+  width: 124px;
+  height: 34px;
+  color: white;
+  font-size: 12px;
+}
+
+/* hire-me end */
+/* section lets-work end */
+/* section portfolio start */
+
+#portfolio {
+  margin-top: 100px;
+  background-color: #fff;
+}
+/* portfolio-texts start */
+.portfolio-texts h1 {
+  margin-left: 420px;
+}
+
+.portfolio-texts p {
+  margin-left: 420px;
+}
+/* portfolio-texts end */
+/* portfolio images start */
+/* portfolio-up-images start */
+.portfolio-up-images {
+  display: flex;
+  margin-left: 420px;
+}
+.portfolio-up-images img {
+  height: 320px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+/* portfolio-up-images end */
+/* portfolio-down-images start */
+.portfolio-down-images {
+  display: flex;
+  margin-left: 420px;
+}
+
+.portfolio-down-images img {
+  height: 320px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+/* portfolio images end */
+/* portfolio-down-images end */
+/* section portfolio end */
 /* main end */
