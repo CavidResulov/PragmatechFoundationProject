@@ -433,7 +433,6 @@
 footer {
   background-color: rgb(17, 17, 17);
   margin-top: 100px;
-  height: ;
 }
 /* icons start */
 .icons {
@@ -453,7 +452,7 @@ footer {
 
 .footer-texts h3 {
   color: rgb(213, 213, 213);
-  font-size: 14px;
+  font-size: 12px;
 }
 /* footer-texts end */
 /* footer-border-bottom start */
@@ -467,6 +466,16 @@ footer {
 /* social-media-icons start */
 .social-media-icons {
   margin-top: 30px;
+  margin-left: 420px;
+}
+.social-media-icons i {
+  cursor: pointer;
+  background-color: #222;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  width: 16px;
 }
 /* social-media-icons end */
 /* footer-border-bottom end */
