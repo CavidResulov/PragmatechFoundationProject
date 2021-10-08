@@ -7,7 +7,7 @@
   overflow-x: hidden;
 }
 /* header start */
-/* section hero-one start */
+/* section home start */
 /* container start */
 
 .background-image {
@@ -48,7 +48,7 @@
   font-family: "Open Sans", sans-serif;
 }
 /* container end */
-/* section hero-one end */
+/* section home end */
 /* header end */
 /* main start */
 /* navbar start */
@@ -107,9 +107,9 @@
 }
 /* navbar-links end */
 /* navbar end */
-/* section hero-two start */
+/* section about start */
 
-#hero-two {
+#about {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -163,9 +163,9 @@
   padding-top: 30px;
   margin-left: 50px;
 }
-/* hero-two-bottom start */
+/* about-bottom start */
 
-.hero-two-bottom {
+.about-bottom {
   display: flex;
   margin-top: 40px;
 }
@@ -234,11 +234,11 @@
   margin-left: 10px;
 }
 /* two buttons end */
-/* hero-two-buttom end */
+/* about-buttom end */
 /* title-and-subtitle end */
-/* section hero-two end */
-/* section my-skills start */
-#my-skills {
+/* section about end */
+/* section skills start */
+#skills {
   margin-top: 100px;
   background-color: #f7f7f7;
 }
@@ -273,9 +273,9 @@
   margin-left: 400px;
 }
 /* three-cards-down end */
-/* section my-skills end */
-/* section lets-work start */
-#lets-work {
+
+/* lets-work start */
+.lets-work {
   height: 130px;
   margin-top: 100px;
   display: flex;
@@ -305,7 +305,8 @@
 }
 
 /* hire-me end */
-/* section lets-work end */
+/* lets-work end */
+/* section skills end */
 /* section portfolio start */
 
 #portfolio {
@@ -347,4 +348,84 @@
 /* portfolio images end */
 /* portfolio-down-images end */
 /* section portfolio end */
+/* seciton testimonials start*/
+/* testimonials-cards start  */
+#testimonials {
+  margin-top: 100px;
+  background-color: rgb(247, 247, 247);
+}
+.testimonials-cards {
+  display: flex;
+  margin-left: 420px;
+}
+
+.testimonials-cards .card {
+  height: 200px;
+  padding: 0 20px;
+  border: 1px solid rgba(214, 214, 214, 0.8);
+  background-color: rgb(255, 255, 255);
+}
+
+.testimonials-cards .card-text {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+/* testimonials-cards end */
+/* section testimonials end */
+/* section blog start */
+#blog {
+  margin-top: 100px;
+}
+/* blog-cards start */
+.blog-cards {
+  display: flex;
+  margin-left: 420px;
+}
+.blog-cards .card {
+  height: 200px;
+  border: 1px solid rgba(214, 214, 214, 0.8);
+  overflow: hidden;
+}
+.blog-cards image {
+  width: 200px;
+  object-fit: cover;
+}
+
+/*blog-cards end */
+/* section blog end */
+/* section contact start */
+#contact {
+  background-color: rgb(247, 247, 247);
+  margin-top: 100px;
+}
+
+#contact h1 {
+  margin-top: 50px;
+  margin-left: 420px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#contact p {
+  margin-left: 420px;
+}
+.inputs {
+  margin-left: 420px;
+  margin-top: 20px;
+}
+
+.btn-send-message {
+  margin-top: 10px;
+  background-color: rgb(167, 29, 42);
+  border: 1px solid rgb(191, 42, 61);
+  border-radius: 30px;
+  width: 110px;
+  height: 36px;
+  color: white;
+  font-size: 12px;
+  font-family: inherit;
+}
+/* section contact end */
 /* main end */
