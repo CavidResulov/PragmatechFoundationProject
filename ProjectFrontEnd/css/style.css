@@ -429,3 +429,27 @@
 }
 /* section contact end */
 /* main end */
+/* footer start */
+footer {
+  background-color: rgb(17, 17, 17);
+  margin-top: 100px;
+}
+/* icons start */
+.icons {
+  display: flex;
+  margin-left: 420px;
+  margin-top: 100px;
+}
+.footer-texts {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 220px;
+  margin-top: 40px;
+  color: white;
+}
+
+.footer-border-bottom {
+  border-bottom: 2px solid rgba(85, 85, 85, 0.2);
+  width: 1200px;
+  margin-left: 270px;
+}
