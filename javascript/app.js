@@ -28,3 +28,22 @@ function adyazdir() {
 adyazdir();
 
 // prompt ad yazdir 10 defe
+
+// prompt 3 condition
+
+function yasyazdir() {
+  var age = prompt("Yasinizi daxil edin");
+  if (age < 30) {
+    var age = Number(age);
+    alert(Math.pow(age, 2));
+  } else if (age > 30 && age < 40) {
+    var age = Number(age);
+    alert(age % 10);
+  } else if (age < 0 && age > 100) {
+    alert("Duzgun melumat daxil etmemisiniz");
+  }
+}
+
+yasyazdir();
+
+// prompt 3 condition
