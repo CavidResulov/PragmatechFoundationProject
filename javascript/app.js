@@ -12,8 +12,19 @@ console.log(sum);
 
 // dordreqemli ededin reqemleri cemi
 
-// prompt ad yazdir
+// prompt ad yazdir 10 defe
 
-let person = prompt("Adinizi daxil edin", "");
+function adyazdir() {
+  var text = "";
+  var word;
 
-// prompt ad yazdir
+  word = prompt("Adinizi daxil edin");
+  for (i = 0; i < 10; i++) {
+    text += "Ad:" + word + "\n";
+  }
+  alert(text);
+}
+
+adyazdir();
+
+// prompt ad yazdir 10 defe
