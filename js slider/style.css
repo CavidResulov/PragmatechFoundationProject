@@ -1,0 +1,20 @@
+.slider {
+  margin-left: 400px;
+  margin-top: 150px;
+}
+
+.slider-big-image img {
+  width: 612px;
+  height: 200px;
+}
+
+.slider-small-images img {
+  height: 100px;
+  width: 150px;
+  filter: brightness(50%);
+  transition: all 0.3s ease;
+}
+
+.slider-small-images img:hover {
+  filter: brightness(100%);
+}
